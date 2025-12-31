@@ -130,7 +130,7 @@ class _ProductPageState extends State<ProductPage> {
           Align(
             alignment: Alignment.centerRight,
             child: ElevatedButton.icon(
-              icon: const Icon(Icons.download),
+              icon: const Icon(Icons.upload),
               label: const Text('Export CSV'),
               onPressed: () async {
                 final products = await getProducts();
